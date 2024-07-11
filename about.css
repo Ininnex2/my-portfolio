@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(levi-guzman-wF5z4_JzxaU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+
+.main h1{
+    color: orange;
+    display: flex;
+    padding-top: 2%;
+    justify-content: center;
+    justify-items: center;
+}
+
+.main h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: white;
+}
+
+.icons a i{
+    color: aliceblue;
+    position: relative;
+    right: 300%;
+    transition: 0.5s;
+    font-size: x-large;
+}
+.icons a i:hover{
+    color: yellow;
+    
+}
+.back{
+    position: relative;
+    top: 2%;
+    left: 1%;
+}
+.back a{
+    
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.back a:hover{
+    color: green;
+}
